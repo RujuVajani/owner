@@ -9,19 +9,6 @@ OWNER, an API to ease Java property files usage.
 [![stability status](https://www.meterian.com/badge/gh/lviggiano/owner/stability)](https://www.meterian.com/report/gh/lviggiano/owner)
 [![Built with Maven](http://maven.apache.org/images/logos/maven-feather.png)](http://maven.apache.org)
 
-DONATIONS
----------
-
-Your support, is the acknowledgment of the value of this work and helps it running and improving.
-Donations are welcome.
-
-![Donate bitcoin:1DARNDYjjKhNF8j2DFwT3zrtUsMQvV2am1](http://i.imgur.com/BC7sVAG.png)  
-bitcoin:1DARNDYjjKhNF8j2DFwT3zrtUsMQvV2am1
-
-[![Donate with PayPal](https://www.paypalobjects.com/webstatic/en_US/i/btn/png/gold-rect-paypal-26px.png)](https://www.paypal.me/lviggiano)
-
-Thank you!
-
 
 INTRODUCTION
 ------------
@@ -30,6 +17,15 @@ The goal of OWNER API is to minimize the code required to handle
 application configuration through Java properties files.
 
 Full documentation available on [project website][website].
+
+CHANGES
+--------
+
+hotreload for urls as well
+
+Original version didn't have option to do hotreload for urls it only had option for local files.
+I modified code to make hotreload available for http / https urls.
+
 
 BASIC USAGE
 -----------
